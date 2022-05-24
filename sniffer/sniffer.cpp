@@ -7,7 +7,7 @@
 #include <Mstcpip.h>
 #include <ctime>
 
-#pragma comment(lib, "Ws2_32.lib") //комментарий линкеру
+#pragma comment(lib, "Ws2_32.lib")
 
 
 void Error_code(int x);
@@ -59,7 +59,7 @@ struct TCP_hdr
 	unsigned char reserved_part1 : 3;
 	unsigned char data_offset : 4;
 
-	unsigned char fin : 1; //флаги
+	unsigned char fin : 1; 
 	unsigned char syn : 1;
 	unsigned char rst : 1;
 	unsigned char psh : 1;
