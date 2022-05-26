@@ -1,0 +1,3 @@
+﻿  Client.cpp
+C:\Users\BigMacEnjoyer\source\repos\Client\Client.cpp(84,56): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Client.vcxproj -> C:\Users\BigMacEnjoyer\source\repos\Client\x64\Debug\Client.exe
